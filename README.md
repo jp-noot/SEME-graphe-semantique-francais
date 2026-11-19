@@ -29,6 +29,10 @@ Chaque **concept** est une définition WordNet (traduite en français) ; deux co
 - B. Sagot et D. Fišer, *Building a free French wordnet from multilingual resources*, OntoLex 2008 (WOLF).
 - J.-P. Prost, *HOLINET 1.0*, ORTOLANG, 2022 (<https://hdl.handle.net/11403/holinet-1-0/v1>).
 
+![Graphe de proximité sémantique des concepts « orange » et « voiture »](figures/graphe_finale.png)
+
+Chaque nœud est une définition (numéro et premiers mots) ; les poids sont les similarités cosinus (> 0,8). Le graphe est produit par `notebooks/03_pipeline_graphe.ipynb`.
+
 ## Installation
 
 ```
