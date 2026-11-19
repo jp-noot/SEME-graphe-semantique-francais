@@ -1,0 +1,27 @@
+# Gros jeux de données / modèles (à télécharger séparément, voir README)
+camembert-base-wikipedia-4gb/
+camembert-base-wikipedia-4gb.tar.gz
+holinet-1-0/
+holinet-1-0.zip
+wolf-1.0b4.xml
+wolf-1.0b4.xml.bz2
+
+# Dépôt tiers (marekrei/convertvec) + embeddings associés
+convertvec/
+
+# Fichiers temporaires
+.ipynb_checkpoints/
+__pycache__/
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Fichiers générés / téléchargés par 04_synonymes_wolf
+data/zadig.txt
+data/zadig_augmente.txt

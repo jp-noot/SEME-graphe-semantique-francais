@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+networkx
+plotly
+nltk
+torch
+transformers
+sentencepiece
+googletrans==4.0.0-rc1
+jupyter
