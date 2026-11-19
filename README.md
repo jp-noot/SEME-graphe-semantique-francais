@@ -24,7 +24,7 @@ Chaque **concept** est une définition WordNet (traduite en français) ; deux co
 ## Références
 
 - L. Martin, B. Muller, P. J. Ortiz Suárez, Y. Dupont, L. Romary, É. Villemonte de La Clergerie, D. Seddah et B. Sagot, *CamemBERT: a Tasty French Language Model*, ACL 2020, p. 7203-7219 (<https://almanach.inria.fr/software_and_resources/CamemBERT-fr.html>).
-- R. Castagné, N. Godey et B. Muller, tutoriel CamemBERT, journées *Deep Voice*, IRCAM (base de `notebooks/exploration/camembert_tutoriel.ipynb`).
+- R. Castagné, N. Godey et B. Muller, tutoriel CamemBERT, journées *Deep Voice*, IRCAM, [notebook d'origine](https://colab.research.google.com/drive/1W0Fj7aXm2qPx34PbEo0F5s5_sm8vVrJl?usp=sharing) (base de `notebooks/exploration/camembert_tutoriel.ipynb`).
 - C. Fellbaum, *WordNet*, in *Theory and applications of ontology: computer applications*, Springer, 2010 ; E. Loper et S. Bird, *NLTK: the Natural Language Toolkit*, 2002.
 - B. Sagot et D. Fišer, *Building a free French wordnet from multilingual resources*, OntoLex 2008 (WOLF).
 - J.-P. Prost, *HOLINET 1.0*, ORTOLANG, 2022 (<https://hdl.handle.net/11403/holinet-1-0/v1>).
