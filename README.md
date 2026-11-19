@@ -12,7 +12,7 @@ ressources lexicales et de modèles de langue.
 | `notebooks/02_construction_table` | Table `mot_fr / synset / mot_en / nature` à partir de `data/data_toyes.txt` |
 | `notebooks/03_pipeline_graphe` | Pipeline principal : définitions WordNet, embeddings CamemBERT, similarités, graphe `networkx` |
 | `notebooks/04_synonymes_wolf` | Reconstruction de synonymes avec WOLF (adapté d'un TD de Xavier Dupré, voir le notebook) |
-| `notebooks/exploration/` | Essais préparatoires : exploration de CamemBERT (adapté d'un tutoriel de blog) et de Lexique383 |
+| `notebooks/exploration/` | Essais préparatoires : exploration de CamemBERT (adapté d'un tutoriel de l'IRCAM, voir le notebook) et de Lexique383 |
 | `data/` | Jeu de données jouet (mots fréquents) |
 | `figures/` | Graphes obtenus (`graphe_finale.pdf` est régénéré par `03_pipeline_graphe` ; `graphe_finale_v2.pdf` date de 2023) |
 | `rapport/` | `rapport_final.pdf` (synthèse), sources LaTeX (`Synthese.tex`, `main.tex` pour la présentation beamer), présentation `.pptx` |
@@ -23,7 +23,8 @@ Chaque **concept** est une définition WordNet (traduite en français) ; deux co
 
 ## Références
 
-- L. Martin et al., *CamemBERT: a Tasty French Language Model*, ACL 2020.
+- L. Martin, B. Muller, P. J. Ortiz Suárez, Y. Dupont, L. Romary, É. Villemonte de La Clergerie, D. Seddah et B. Sagot, *CamemBERT: a Tasty French Language Model*, ACL 2020, p. 7203-7219 (<https://almanach.inria.fr/software_and_resources/CamemBERT-fr.html>).
+- R. Castagné, N. Godey et B. Muller, tutoriel CamemBERT, journées *Deep Voice*, IRCAM (base de `notebooks/exploration/camembert_tutoriel.ipynb`).
 - C. Fellbaum, *WordNet*, in *Theory and applications of ontology: computer applications*, Springer, 2010 ; E. Loper et S. Bird, *NLTK: the Natural Language Toolkit*, 2002.
 - B. Sagot et D. Fišer, *Building a free French wordnet from multilingual resources*, OntoLex 2008 (WOLF).
 - J.-P. Prost, *HOLINET 1.0*, ORTOLANG, 2022 (<https://hdl.handle.net/11403/holinet-1-0/v1>).
